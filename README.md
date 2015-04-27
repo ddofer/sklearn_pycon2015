@@ -1,16 +1,12 @@
-# PyCon 2015 Scikit-learn Tutorial
+# Practical Machine Learning with SciKit-Learn Tutorial
 
-*Instructor: Jake VanderPlas*
+*Dan Ofer*
 
-- email: <jakevdp@uw.edu>
-- twitter: [@jakevdp](https://twitter.com/jakevdp)
-- github: [jakevdp](http://github.com/jakevdp)
+- email:
+- github: [ddofer](https://github.com/ddofer)
 
-This repository will contain files and other info associated with my PyCon
-2015 scikit-learn tutorial.
+This repository will contain files and other info associated with my scikit-learn workshop at the Hebrew University.
 
-# Video
-The tutorial presentation was video-taped; the video is available [here](https://www.youtube.com/watch?v=L7R4HUQ-eQ0).
 
 ## Installation Notes
 This tutorial requires the following packages:
@@ -28,32 +24,30 @@ I suggest downloading and installing [miniconda](http://conda.pydata.org/minicon
 
 Once this is installed, the following command will install all required packages in your Python environment:
 ```
-$ conda install numpy scipy matplotlib scikit-learn ipython-notebook seaborn
+$ conda install numpy scipy matplotlib scikit-learn ipython-notebook seaborn pandas
 ```
 
 Alternatively, you can download and install the (very large) Anaconda software distribution, found at https://store.continuum.io/.
 
 ## Downloading the Tutorial Materials
-I would highly recommend using git, not only for this tutorial, but for the
-general betterment of your life.  Once git is installed, you can clone the
+I would recommend using iPython (Included as part of Anaconda) and git, not only for this tutorial.  Once git is installed, you can clone the
 material in this tutorial by using the git address shown above:
 
-    git clone git://github.com/jakevdp/sklearn_pycon2015.git
+    git clone git://github.com/ddofer/sklearn_pycon2015.git
 
-If you can't or don't want to install git, there is a link above to download
-the contents of this repository as a zip file.  I may make minor changes to
-the repository in the days before the tutorial, however, so cloning the
-repository is a much better option.
+If you can't or don't want to install git, there is a link to download
+the contents of this repository as a zip file.  I may make changes to
+the repository however.
 
 
 ## Notebook Listing
-You can [view the tutorial materials](http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2015/blob/master/notebooks/Index.ipynb) using the excellent nbviewer service.
+You can [view the tutorial materials](http://nbviewer.ipython.org/github/ddofer/sklearn_pycon2015/blob/master/notebooks/Index.ipynb) using the excellent nbviewer service.
 
-Note, however, that you cannot modify or run the contents within nbviewer.
+Note, that you cannot modify or run the contents within nbviewer.
 To modify them, first download the tutorial repository, change to the notebooks directory, and run ``ipython notebook``.
 You should see the list in the ipython notebook launch page in your web browser.
 For more information on the IPython notebook, see http://ipython.org/notebook.html
 
 Note also that some of the code in these notebooks will not work outside the
 directory structure of this tutorial, so it is important to clone the full
-repository if possible.
+repository if possible (using GitHub).
